@@ -2,4 +2,18 @@ h1 {
 	color: rgb(155, 155, 155);
 	flex: 0%
 }
+h2 {
+	color: rgb(155, 155, 155, .6);
+	flex: 0%
+}
 
+h3 {
+	color: rgb(155, 155, 155, .3);
+	flex: 0%
+}
+
+body {
+	background: url(https://www.wallpaperup.com/uploads/wallpapers/2016/06/27/992854/c154462c4f4df748d8252adfd41c20b9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover
+}
