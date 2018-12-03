@@ -1,58 +1,3 @@
-/* Element */
-li {
-
-}
-
-/* Class */
-.li {
-
-}
-
-/* ID */
-#name {
-
-}
-
-/* Start  => */ 
- {
-
-}
-
-/* Descendent selector*/
-
-li a {
-	color: #000;
-}
-.class .name {
-	color: #000;
-}
-
-/* Adjacent selector*/
-h4 + ul {
-	border: 0ch
-}
-
-/* Attribute selector */
-a[href="some url"] {
-	background: blue;
-}
-
-
-
-
-h1 {
-	color: rgb(155, 155, 155);
-	flex: 0%
-}
-h2 {
-	color: rgb(155, 155, 155, .6);
-	flex: 0%
-}
-
-h3 {
-	color: rgb(155, 155, 155, .3);
-	flex: 0%
-}
 
 body {
 	background: url(https://www.wallpaperup.com/uploads/wallpapers/2016/06/27/992854/c154462c4f4df748d8252adfd41c20b9.jpg);
@@ -60,6 +5,24 @@ body {
 	background-size: cover
 }
 
+div form {
+	align-self: center
+}
 
+p {
+	align-items: center;
+	size: 500%;
+}
 
+#special:first-child {
+	color: aliceblue;
+}
+
+.name .xxx[type='text'] {
+	color: #000;
+}
+
+div:nth-of-type(3) p:nth-of-type(2) {
+	color: aqua
+}
 
