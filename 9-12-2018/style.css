@@ -8,6 +8,7 @@ body {
 	 padding-bottom: 30%;
 	 float: right;
 	 margin: 1.66%;
+	 border-radius: 4%
 }
 
 #container {
@@ -15,6 +16,15 @@ body {
 	margin: 0 auto;
 }
 
+#message {
+	font-size: 100px;
+	color: darkorchid
+}
+
 h1 {
 	color: chocolate
+}
+
+span {
+	color: darkorchid
 }

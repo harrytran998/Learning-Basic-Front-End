@@ -8,13 +8,20 @@ const colors = [
 ]
 const squares = document.querySelectorAll(".square")
 const colorDisplay = document.getElementById("colorDisplay")
-let colorCliked = null
+const message = document.getElementById("message")
 
-colorDisplay.textContent = colorCliked
+let colorCliked = null
 
 for (let i = 0; i < squares.length; i++) {
   squares[i].style.backgroundColor = colors[i]
-  squares[i].addEventListener('click', function() {
-    alert(this.style.backgroundColor)
+  squares[i].addEventListener('click', function () {
+    colorCliked = this.style.backgroundColor
+    colorDisplay.textContent = colorCliked
+    if (colorCliked === colors[3]) {
+      message.textContent = 'Correct !'
+    } else {
+      message.textContent = 'Incorrect !'
+    }
   })
+
 }
