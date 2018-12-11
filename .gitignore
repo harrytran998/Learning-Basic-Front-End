@@ -1,6 +1,20 @@
 
-# Created by https://www.gitignore.io/api/node,macos
-# Edit at https://www.gitignore.io/?templates=node,macos
+# Created by https://www.gitignore.io/api/web,vue,font,node,vuejs,macos,database,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=web,vue,font,node,vuejs,macos,database,visualstudiocode
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+
+### Font ###
+*.fnt
+*.fon
+*.otf
+*.ttf
 
 ### macOS ###
 # General
@@ -111,6 +125,29 @@ typings/
 #DynamoDB Local files
 .dynamodb/
 
-.vscode
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# End of https://www.gitignore.io/api/node,macos
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+### Vuejs ###
+node_modules
+
+# End of https://www.gitignore.io/api/web,vue,font,node,vuejs,macos,database,visualstudiocode
