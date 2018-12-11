@@ -15,3 +15,16 @@ Những thẻ hiển thị theo block thường xuyên
 	+ None = Mất cmnr luôn = Nếu muốn vẫn tồn tại nhưng hidden =
 		+ visibility: hidden
 
+## Position
+
+1. Static
+2. Relative => Được quền thay đổi vị trí bất kỳ
+3. Absolute
+4. Fixed => Cố cmn định 1 chỗ luôn
+
+## Font-size
+
+**16px = 100% = 1em**
+
+**rem** => bỏ qua inhirte của body, lấy giá trị trong container thôi
+
