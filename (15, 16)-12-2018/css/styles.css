@@ -30,3 +30,28 @@ body {
   font-size: 1.2rem;
   font-family: "Ubuntu", sans-serif;
 }
+
+#features {
+  background-color: whitesmoke;
+  margin-top: 10rem;
+}
+
+.div-feature {
+  padding: 4%;
+  text-align: center;
+}
+
+.fa-color {
+  color: #ee7ca2;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 2rem;
+}
+
+.feature-content {
+  font-family: "Montserrat-Black", sans-serif;
+  color: rgb(189, 194, 199);
+}
