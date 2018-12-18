@@ -63,20 +63,23 @@ body {
 /* Testimonials Section */
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   color: aliceblue;
 }
-section h2 {
+h2 {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 4rem;
   line-height: 1.5;
+  margin-bottom: 5rem;
 }
 
 .testimonials-image {
   width: 6rem;
   border-radius: 100%;
-  margin-top: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 #press {
