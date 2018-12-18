@@ -46,6 +46,10 @@ body {
   margin-bottom: 20px;
 }
 
+.fa-color:hover {
+  color: aqua;
+}
+
 .feature-title {
   font-family: "Montserrat-Black", sans-serif;
   font-size: 2rem;
@@ -54,4 +58,33 @@ body {
 .feature-content {
   font-family: "Montserrat-Black", sans-serif;
   color: rgb(189, 194, 199);
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  color: aliceblue;
+}
+section h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 6rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+#press {
+  text-align: center;
+}
+
+.press-logo {
+  padding: 0 10px 10px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
 }
